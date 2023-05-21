@@ -77,8 +77,6 @@ export async function getStaticProps() {
         VerifiedAllCampaigns.push(obj);
     }
 
-    console.log("************ VerifiedAllCampaigns *********** ", VerifiedAllCampaigns)
-
     return {
         props: {
             VerifiedAllCampaigns
